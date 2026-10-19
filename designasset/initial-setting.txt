@@ -3,15 +3,9 @@
 最终更新日：2026-07-19
 文档作用：该文档存储了游戏的基础规则，机制和常量，当出现新机制时便会在本文档内更新或加笔。
 
-2026-07-19 规则优先级说明：
-本文档是历史基础设计稿。涉及赛季重置、长期资产、亮晶晶/夜静静经济、科研、玩家等级、地图可见性与思考回路占领规则时，
-以 /doc/internal-beta-readiness-spec-20260719.txt 为权威规则；本文档中尚未逐项改写的冲突描述不再有效。
-This is a legacy foundation draft. The 2026 internal-beta readiness specification is authoritative for seasonal resets,
-persistent assets, Bright/Night economy, research, player level, map visibility, and Circuit occupation rules.
+
 
 游戏类型：oGame类资源管理+领地占据策略游戏
-使用技术栈：PHP+MySQL+HTML+CSS+JavaScript
-游戏整合：单独运转，或与常磐大逃杀的用户数据（参照/doc/repomix-dts.txt中的users表）互通，该选项需要在初始化时选择配置。
 
 游戏玩法概述：
 玩家扮演潜入数据之海的“钻探者”（Driller），在数据之海中修建城池，并通过在城池中建造设施产出资源，
