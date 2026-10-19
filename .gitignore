@@ -1,0 +1,10 @@
+node_modules/
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/backups/
+public/assets/generals/admin_*
+.env
+*.log
+refshots/
+.docwork/

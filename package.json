@@ -1,0 +1,20 @@
+{
+  "name": "fireseed-engage",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Fireseed Engage / 种火集结号 — a synthpunk browser strategy game and admin console.",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "reset": "node tools/reset.mjs",
+    "test": "node tools/smoke.mjs",
+    "test:api": "node tools/api-test.mjs",
+    "test:e2e": "node tools/e2e-api.mjs",
+    "test:full": "node tools/full-test.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "license": "UNLICENSED"
+}
